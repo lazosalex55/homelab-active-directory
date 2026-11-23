@@ -10,7 +10,7 @@ A three-VM enterprise lab I built on VirtualBox to practice the work of an IT su
 | --- | --- |
 | **Windows Server & Active Directory** | Installed Windows Server 2025, promoted it to the first domain controller of a new forest (`homelab.local`), with integrated DNS |
 | **Networking** | Designed an isolated lab network (`10.10.10.0/24`), with static IP addressing, DNS pointed at the DC, and a separate NAT path to the internet |
-| **Client management** | Built a Windows 11 Pro workstation and joined it to the domain |
+| **Client management** | Built a Windows 11 Pro workstation on the lab network with DNS pointed at the DC; domain join in progress |
 | **Group Policy & RBAC** | Organizational units, role-based security groups and GPOs scoped by OU and security filtering *(in progress)* |
 | **Linux & Docker** | Ubuntu 24.04 host running Wireshark in a container with host networking and raw-capture capabilities |
 | **Security monitoring** | A promiscuous-mode sensor that captures DNS, Kerberos, LDAP and SMB traffic between domain machines |
